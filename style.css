@@ -10,18 +10,18 @@ h2 {
 
 ul { 
     list-style: none;
+    background-color: grey;  
+    margin: 0;
+    padding: 0;
 }
 
 li {
-    display: inline; /* use block to separate each elem on the list */
-    background-color: grey;    
-    padding: 16px;      
+    display: inline-block;
+    padding: 16px; 
 }
 
 li a { /* a = "args" */     
     color: black;
-    margin: 0;
-    padding: 0;     
 } 
 
 li:hover {
@@ -29,6 +29,7 @@ li:hover {
 }
 
 footer {
+    text-align: center;
     background-color:#DDD;
     color:#555;
     padding: 16px;
