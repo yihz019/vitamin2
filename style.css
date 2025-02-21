@@ -1,0 +1,35 @@
+html {
+    font-family: "Comic Sans MS", "Comic Sans", "Arial"; 
+}
+
+h1,
+h2 {
+    font-family: "Papyrus";
+    color: purple;
+}
+
+ul { 
+    list-style: none;
+}
+
+li {
+    display: inline; /* use block to separate each elem on the list */
+    background-color: grey;    
+    padding: 16px;      
+}
+
+li a { /* a = "args" */     
+    color: black;
+    margin: 0;
+    padding: 0;     
+} 
+
+li:hover {
+    background-color: #AAA;
+}
+
+footer {
+    background-color:#DDD;
+    color:#555;
+    padding: 16px;
+}
